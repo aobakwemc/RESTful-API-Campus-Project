@@ -1,0 +1,15 @@
+GET http://localhost:8000/student
+###
+
+POST http://localhost:8000/student
+Content-Type: application/json
+
+{
+  "studentName": "John Peters",
+  "internshipStatus": "placed",
+  "outstandingSubjects": 0,
+}
+###
+
+PATCH http://localhost:8000/student
+###
